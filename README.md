@@ -6,14 +6,14 @@ Projeto de leitura, inserção, edição e remoção de produtos para a loja Dom
 
  1. Verifique se todas as tecnologias necessarias já estão instaladas.
     No projeto utilizamos PHP, Composer (para o Laravel), Docker e MySQL, caso não tenha algumas das tecnologias todas os links para iniciar em cada uma estarão abaixo:
-    . PHP: https://www.php.net/downloads.php
-    . Composer: https://getcomposer.org/download/
-    . Docker: https://www.docker.com/get-started/
+    - PHP: https://www.php.net/downloads.php
+    - Composer: https://getcomposer.org/download/
+    - Docker: https://www.docker.com/get-started/
  
  2. Após instalar todas as dependencias abra o terminal na pasta raiz do projeto e rode os seguintes comandos:
-	. `docker compose up -d`
-	. `php artisan migrate`
-	. `php artisan serve`
+	- `docker compose up -d`
+	-  `php artisan migrate`
+	-  `php artisan serve`
  3. Acessar o projeto:
 	 O projeto estará rodando em http://localhost:8000.
 	 Na URL http://localhost:8080 está disponivel o phpmyadmin do banco de dados.
