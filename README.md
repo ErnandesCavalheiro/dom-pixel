@@ -10,13 +10,22 @@ Projeto de leitura, inserção, edição e remoção de produtos para a loja Dom
     - Composer: https://getcomposer.org/download/
     - Docker: https://www.docker.com/get-started/
  
- 2. Após instalar todas as dependencias abra o terminal na pasta raiz do projeto e rode os seguintes comandos:
-	- `docker compose up -d`
-    -  `composer install`
-	-  `php artisan migrate`
-	-  `php artisan serve`
- 3. Acessar o projeto:
+ 2. Após instalar todas as dependencias abra o projeto:
+    Crie um arquivo chamado .env e preencha as seguintes variaveis para configurar o banco de dados:
+        `DB_CONNECTION=mysql
+         DB_HOST=127.0.0.1
+         DB_PORT=3306
+         DB_DATABASE=dompixel
+         DB_USERNAME=admin
+         DB_PASSWORD=admin`
+    
+    Após configurar o banco de dados podemos iniciar o projeto utilizando os seguintes comandos no terminal:
+	    - `docker compose up -d`
+        -  `composer install`
+	    -  `php artisan migrate`
+	    -  `php artisan serve`
+ 4. Acessar o projeto:
 	 O projeto estará rodando em http://localhost:8000.
 	 Na URL http://localhost:8080 está disponivel o phpmyadmin do banco de dados.
- 4. Funcionalidades dos Produtos:
+ 5. Funcionalidades dos Produtos:
 	 Para acessar as funcionalidades dos produtos acesse http://localhost:8000/products, nessa rota está disponivel a lista de produtos e links para todas as outras funcionalidades.
