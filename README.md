@@ -12,6 +12,7 @@ Projeto de leitura, inserção, edição e remoção de produtos para a loja Dom
  
  2. Após instalar todas as dependencias abra o terminal na pasta raiz do projeto e rode os seguintes comandos:
 	- `docker compose up -d`
+    -  `composer install`
 	-  `php artisan migrate`
 	-  `php artisan serve`
  3. Acessar o projeto:
