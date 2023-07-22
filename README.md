@@ -2,7 +2,7 @@
 
 Projeto de leitura, inserção, edição e remoção de produtos para a loja DomPixel
 
-**Para iniciar o projeto faça os seguintes passos:
+**Para iniciar o projeto faça os seguintes passos:**
 
  1. Verifique se todas as tecnologias necessarias já estão instaladas.
     No projeto utilizamos PHP, Composer (para o Laravel), Docker e MySQL, caso não tenha algumas das tecnologias todas os links para iniciar em cada uma estarão abaixo:
@@ -19,5 +19,3 @@ Projeto de leitura, inserção, edição e remoção de produtos para a loja Dom
 	 Na URL http://localhost:8080 está disponivel o phpmyadmin do banco de dados.
  4. Funcionalidades dos Produtos:
 	 Para acessar as funcionalidades dos produtos acesse http://localhost:8000/products, nessa rota está disponivel a lista de produtos e links para todas as outras funcionalidades.
-
-**
