@@ -29,3 +29,7 @@ Projeto de leitura, inserção, edição e remoção de produtos para a loja Dom
 	 Na URL http://localhost:8080 está disponivel o phpmyadmin do banco de dados.
  5. Funcionalidades dos Produtos:
 	 Para acessar as funcionalidades dos produtos acesse http://localhost:8000/products, nessa rota está disponivel a lista de produtos e links para todas as outras funcionalidades.
+
+ 6. Observações:
+    Copie o arquivo .env.example e crie um .env com o mesmo conteudo, só troque os dados do banco de dados.
+    Caso use o banco de dados do docker-compose, pode ser que o MySQL demore alguns minutos para subir, então o comando `php artisan migrate` não funcionara. Aguarde alguns minutos e tente novamente.
